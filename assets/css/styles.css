@@ -200,6 +200,7 @@ img {
   align-self: center;
 }
 .home__title {
+  position: relative;
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-0);
 }
