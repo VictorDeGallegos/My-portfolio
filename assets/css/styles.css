@@ -478,3 +478,7 @@ img {
     right: 5%;
   }
 }
+
+h2.center {
+  text-align: center;
+}
