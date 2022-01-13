@@ -341,7 +341,7 @@ img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
-  height: 184px;
+  height: 11rem;
 }
 .work__img img {
   transition: 1s;
