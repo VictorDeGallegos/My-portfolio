@@ -329,6 +329,24 @@ img {
 .skills__python {
   width: 60%;
 }
+.skills__git {
+  width: 90%;
+}
+.skills__node {
+  width: 70%;
+}
+.skills__c {
+  width: 50%;
+}
+.skills__mysql {
+  width: 60%;
+}
+.skills__kotlin {
+  width: 60%;
+}
+.skills__bash {
+  width: 80%;
+}
 .skills__img {
   border-radius: 0.5rem;
 }
