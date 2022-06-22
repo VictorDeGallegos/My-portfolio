@@ -8,8 +8,8 @@
 
 /*===== Colores =====*/
 :root {
-  --first-color: #4070f4;
-  --second-color: #0e2431;
+  --first-color: #d6a13a;
+  --second-color: #16171b;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -237,7 +237,7 @@ img {
   border-radius: 0.5rem;
 }
 .button:hover {
-  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 36px #d6a23a7d;
 }
 
 /* ===== ABOUT =====*/
@@ -500,4 +500,37 @@ img {
 
 h2.center {
   text-align: center;
+}
+
+/* imagen saltando */
+.stage {
+  border-bottom: 3px solid #444;
+  display: flex;
+  height: 330px;
+  width: 100%;
+}
+.box {
+  align-self: flex-end;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background-color: #f44336;
+  height: 200px;
+  margin: 0 auto 0 auto;
+  transform-origin: bottom;
+  width: 200px;
+}
+.bounce-1 {
+  animation-name: bounce-1;
+  animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
