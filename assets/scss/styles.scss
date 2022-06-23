@@ -384,6 +384,10 @@ img {
       &:hover {
         transform: scale(1.1);
       }
+
+      &:active {
+        transform: scale(1.1);
+      }
     }
   }
 }
@@ -582,6 +586,11 @@ img {
     background: var(--first-color);
   }
   
+  .main_box:active .circle::before {
+    clip-path: circle(30em at center);
+    background: var(--first-color);
+  }
+  
   .main_box img {
     top: 50%;
     left: 50%;
@@ -602,6 +611,16 @@ img {
     width: 40%;
     height: 40%;
   }
+
+  .main_box:active img {
+    top: 78%;
+    left: 80%;
+    height: 5.75em;
+    margin-top:5px;
+    border-radius: 0.5rem;
+    width: 40%;
+    height: 40%;
+  }
   
   .main_box .content {
     position: relative;
@@ -614,6 +633,13 @@ img {
   }
   
   .main_box:hover .content {
+    margin-left: 5px;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  
+  .main_box:active .content {
     margin-left: 5px;
     opacity: 1;
     visibility: visible;
