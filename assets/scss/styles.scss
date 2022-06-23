@@ -263,7 +263,8 @@ img {
     justify-self: center;
 
     & img {
-      width: 200px;
+      width: 400px;
+      height: auto;
       border-radius: 0.5rem;
     }
   }
@@ -666,10 +667,11 @@ img {
   .btn-1 {
     font-family: var(--body-font);
     background: #0F0F6D;
+    content: "\f054";
     color: #ffffff;
     cursor: pointer;
     font-size: .6em;
-    padding: .5rem;
+    padding: .5rem 1.5rem .5rem .5rem;
     border: 0;
     transition: all 0.5s;
     border-radius: 10px;
@@ -696,7 +698,7 @@ img {
         transition: all 0.5s;
         border-radius: 10px;
         box-shadow: 0px 6px 15px #0000ff61;
-        padding: .5rem 3.5rem .5rem .5rem;
+        padding: .5rem 2.0rem .5rem .5rem;
 
         &::after {
             opacity: 1;
@@ -716,7 +718,7 @@ img {
   color: #1d1d1d;
   cursor: pointer;
   font-size: .6em;
-  padding: .5rem;
+  padding: .5rem 1.5rem .5rem .5rem;
   border: 0;
   transition: all 0.5s;
   border-radius: 10px;
@@ -725,8 +727,8 @@ img {
   margin-top: .2rem;
 
   &::after {
-      content: "\f126";
-      font-family: 'Font Awesome\ 5 Free';
+      content: "\f09b";
+      font-family: 'Font Awesome\ 5 Brands';
       font-weight: 900;
       position: absolute;
       left: 85%;
@@ -743,7 +745,7 @@ img {
       transition: all 0.5s;
       border-radius: 10px;
       box-shadow: 0px 6px 15px #0000ff61;
-      padding: .5rem 3.5rem .5rem .5rem;
+      padding: .5rem 2.0rem .5rem .5rem;
       color: #ffffff;
 
       &::after {
