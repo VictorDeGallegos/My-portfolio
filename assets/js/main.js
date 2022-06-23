@@ -60,4 +60,7 @@ jQuery(document).ready(function () {
   jQuery('.main_box').click(function () {
     jQuery(this).toggleClass('active');
   });
+  jQuery('.circle').click(function () {
+    jQuery(this).toggleClass('active');
+  });
 });
