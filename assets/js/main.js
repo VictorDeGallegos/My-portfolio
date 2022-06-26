@@ -63,4 +63,7 @@ jQuery(document).ready(function () {
   jQuery('.circle').click(function () {
     jQuery(this).toggleClass('active');
   });
+  jQuery('.nav__link2').click(function () {
+    jQuery(this).toggleClass('active');
+  });
 });
