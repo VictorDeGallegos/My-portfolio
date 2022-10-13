@@ -309,6 +309,7 @@ img {
     position: absolute;
     right: 0;
     bottom: 0;
+    margin: 0;
     width: 250px;
   }
 }
@@ -370,6 +371,22 @@ img {
     margin-bottom: var(--mb-4);
     border-radius: 0.5rem;
     box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  }
+  &__datac {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: var(--font-semi);
+    padding: 0.5rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+
+    &:hover {
+      transform: scale(1.1);
+      transition: transform .2s; /* Animation */
+    }
   }
   &__icon {
     font-size: 2rem;
